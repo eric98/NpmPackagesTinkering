@@ -1,9 +1,6 @@
-var hello = require('./src/hello').hello
+// Si comença per / o ./ o ../ -> Mòdul local
+// Tota la resta és mòdul NPM
+
+var hello = require('hello')
 
 hello()
-
-var pepito = require('./src/hello').pepito
-
-pepito()
-
-require('./src/hello').hello()
