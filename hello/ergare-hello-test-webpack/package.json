@@ -1,0 +1,19 @@
+{
+  "name": "ergare-hello-test-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --progress --colors index.js app.js",
+    "watch": "webpack --watch --progress --colors index.js app.js",
+    "server_dev": "webpack-dev-server --progress --colors index.js app.js",
+    "server_watch": "webpack-dev-server --progress --colors --watch index.js app.js",
+    "run_web_server": "sensible-browser http://localhost:8081/webpack-dev-server/bundle"
+  },
+  "author": "Eric Garcia Reverter <ergare.17@gmail.com> (https://github.com/eric98)",
+  "license": "ISC",
+  "dependencies": {
+    "ergare-hello": "^1.0.0"
+  }
+}
